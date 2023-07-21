@@ -2,11 +2,17 @@ body {
 font-family: "Raleway";
 font-size: 14px;
 font-weight: 500;
-background-color: #daeeda;
+background-color: #6fdbdb;
 -webkit-font-smoothing: antialiased;
 margin: 0;
   padding-top: 0;
   padding-bottom: 0;
+}
+@font-face {
+  font-family: 'EF_jejudoldam';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .visitor-counter img {
@@ -168,6 +174,7 @@ bottom: 0;
 color: #fff;
 transform: translateY(40%);
 transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+width: 199px;
 }
 
 #project-section .card-info p {

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TaeGyoun Portfolio</title>
+    <title>재익이의 Portfolio</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="image/logo/liyo2.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -22,26 +22,20 @@
         <div>
             <h1 class="title">Profile</h1>
             <div class="profile-container">
-                <img src="https://github.com/jinsangbin.png" alt="Profile picture" class="profile-picture">
-                <h2 class="profile-name">유 태 균</h2>
-                <p class="profile-username">@YooTaeGyoun</p>
+                <img src="https://github.com/jaeiks23.png" alt="Profile picture" class="profile-picture">
+                <h2 class="profile-name">유재익</h2>
+                <p class="profile-username">@Yujaeik</p>
                 <p class="profile-role">Developer</p>
                 <hr class="profile-separator">
                 <div class="profile-links">
-                    <a href="https://github.com/TaeGyoun" class="link-icon"><img src="image/icon/github.png"
+                    <a href="https://github.com/jaeiks23" class="link-icon"><img src="image/icon/github.png"
                             alt="Velog"></i></a>
-                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jinsangbin9@gmail.com"
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jaelie1555@gmail.com"
                         class="link-icon" class="link-icon"><img src="image/icon/email.png" alt="Email"></a>
-                    <a href="https://open.kakao.com/o/g7qCKrtf" class="link-icon"><img src="image/icon/kakao.png"
-                            alt="Kakao"></a>
+                  
                 </div>
             </div>
-            <div class="visitor-counter">
-                <a href="https://hits.seeyoufarm.com">
-                    <img
-                        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fbi-sz.github.io%2Fportfolio%2F&count_bg=%23C9FFFF&title_bg=%2382D5F9&icon=&icon_color=%23E7E7E7&title=%EB%B0%A9%EB%AC%B8%EC%9E%90+&edge_flat=false" />
-                </a>
-            </div>
+            
         </div>
     </div>
     <!-- skils 부분 -->
@@ -59,7 +53,7 @@
                             <img class="Skills_img__f94MA" src="image/skils/Front-end/javascript.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/Front-end/react.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/Front-end/jquery.png" alt="">
-                            <img class="Skills_img__f94MA" src="image/skils/Front-end/typescript.png" alt="">
+                         
                         </div>
                         <div class="Skills_tech-stacks__f20f8">
                             <div class="Skills_title__TH2ju">Backend</div>
@@ -73,15 +67,16 @@
                             <img class="Skills_img__f94MA" src="image/skils/DevelopmentTools/vscode.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/DevelopmentTools/VisualStudio.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/DevelopmentTools/eclipse.png" alt="">
-                            <img class="Skills_img__f94MA" src="image/skils/DevelopmentTools/anaconda.png" alt="">
-                            <img class="Skills_img__f94MA" src="image/skils/DevelopmentTools/dbeaver.png" alt="">
+                         
                         </div>
                         <div class="Skills_tech-stacks__f20f8">
                             <div class="Skills_title__TH2ju">Framework</div>
                             <img class="Skills_img__f94MA" src="image/skils/Framework/spring.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/Framework/SpringBoot.png" alt="">
-                            <img class="Skills_img__f94MA" src="image/skils/Framework/flask.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/Framework/bootstrap.png" alt="">
+                            <img class="Skills_img__f94MA" src="image/skils/Framework/img.png" alt="">
+                           
+                            
                         </div>
                         <div class="Skills_tech-stacks__f20f8">
                             <div class="Skills_title__TH2ju">WEB/WAS</div>
@@ -102,6 +97,7 @@
                             <div class="Skills_title__TH2ju">Communication</div>
                             <img class="Skills_img__f94MA" src="image/skils/coummunication/Figma.png" alt="">
                             <img class="Skills_img__f94MA" src="image/skils/coummunication/StarUML.png" alt="">
+                            <img class="Skills_img__f94MA" src="image/skils/coummunication/draw.io.png" alt="">
                         </div>
                     </div>
             </article>
@@ -111,18 +107,26 @@
     <div class="line"></div>
 
     <!-- Project 부분 -->
-    <div id="project-section">
+    <div id="project-section"  style="text-align: center; margin-bottom: 46px;">
         <h1 class="title">Project</h1>
 
-        <div id="app" class="container">
-            <card data-image="image/project/Minty/MintyLogo.png" data-id="Minty">
-                <h1 slot="header">Minty</h1>
-                <p slot="content">
-                    <br>
-                    중고거래 플랫폼 민티.
-                </p>
-            </card>
-
+        <div class="card-wrap" style="display: inline-block;" onclick="handleClick2()" id = "DonJon">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;);"></div>
+                <div class="card-info"><h1>DonJon</h1> <p><br>RPG게임 </p></div>
+            </div>
+        </div>
+        <div class="card-wrap" style="display: inline-block;"onclick="handleClick2()" id = "Team-communicate-Tool">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;); "></div>
+                <div class="card-info"><h1 style="   font-size: 31px; position: relative;   top: -12px; ">Team-communicate</h1> <p><br>협업 관리</p></div>
+            </div>
+        </div>
+        <div class="card-wrap" style="display: inline-block;" onclick="handleClick2()" id = "DonJon">
+            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
+                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;); "></div>
+                <div class="card-info"><h1>Refrigerator</h1> <p><br>냉장고 재료 관리</p></div>
+            </div>
         </div>
     </div>
 

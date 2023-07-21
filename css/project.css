@@ -15,8 +15,10 @@
     }
 
 .Projects_Projects__E9SvD{
-    padding: 80px;
+    padding: 0px 80px 80px 80px;
     font-family: 'Dovemayo_gothic', sans-serif; 
+    position: relative;
+    top: 70px;
 }
 
 .SectionTitle_text__O7xJQ {
@@ -50,7 +52,7 @@
 }
 
 .Projects_project__hHhvb {
-    background: #daeeda;
+    background: #c9e782;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);

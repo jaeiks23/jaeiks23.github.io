@@ -84,3 +84,6 @@ Vue.config.devtools = true;
 
 
         
+        function handleClick2(){
+            window.location.href = `project.html#${this.dataId}`;
+        }  

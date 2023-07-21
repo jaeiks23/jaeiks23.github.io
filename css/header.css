@@ -7,7 +7,12 @@
   html {
     scroll-behavior: smooth; /* 스크롤 애니메이션 활성화 */
   }
-  
+  @font-face {
+    font-family: 'MaplestoryOTFBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   .header {
     display: flex;
     align-items: center;
@@ -21,6 +26,12 @@
     top: 0;
     font-family: 'Dovemayo_gothic', sans-serif;
   }
+.spns{
+  font-family: 'MaplestoryOTFBold';
+  font-size:30px;
+  color: black;
+
+}
 
   .header2 {
     display: flex;
@@ -56,7 +67,7 @@
     justify-content: space-between;
     height: 40px;
     width: calc(100% - 60px);
-    padding: 0 100px;
+    padding: 0 10px;
   }
   
   .navbar-brand {

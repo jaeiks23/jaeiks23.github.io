@@ -8,8 +8,8 @@ html, body, button {
 }
 
 body {
-    background-color: #FCE9F1;
-
+    background-color: #6fdbdb;
+    margin: 0px;
 }
 
 button{border:0;margin:0;padding:0;}
