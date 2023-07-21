@@ -91,7 +91,28 @@
     font-family: 'Dovemayo_gothic', sans-serif; 
     word-break: break-word;
 }
+#Donjon{
+    position: relative;
+    top: -209px;
+}
+#Team-communicate-Tool{
+    position: relative;
+    top: -209px;
+}
+.Projects_img__OAyqd2{
+    width: 300px;
+    height: 250px;
+ 
+}
+.Projects_img__OAyqd3{
+    width: 300px;
+    height: 250px;
 
+}
+#Refrigerator{
+    position: relative;
+    top: -209px;
+}
 /* 이미지 슬라이드 및 네비게이션 스타일 */
 .Projects_img-carousel__e8hwy {
     flex: 1;
@@ -105,12 +126,38 @@
     align-items: center;
     justify-content: center;
     font-family: 'Dovemayo_gothic', sans-serif; 
+    margin-top: 14px;
 }
 
 .Projects_img__OAyqd {
     width: 300px;
+    height: 250px;
+    display: none;
 }
-
+.Projects_next__3RYWe{
+    position: relative;
+    right: -60px;
+}
+.Projects_next__3RYWe2{
+    position: relative;
+    right: -75px;
+}
+.Projects_next__3RYWe3{
+    position: relative;
+    right: -75px;
+}
+.Projects_prev__wS3_z{
+    position: relative;
+    left: -60px;
+}
+.Projects_prev__wS3_z2{
+    position: relative;
+    left: -75px;
+}
+.Projects_prev__wS3_z3{
+    position: relative;
+    left: -75px;
+}
 /* 프로젝트 설명 스타일 */
 .Projects_descriptions__2g3bi {
     flex: 2;

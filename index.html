@@ -109,25 +109,30 @@
     <!-- Project 부분 -->
     <div id="project-section"  style="text-align: center; margin-bottom: 46px;">
         <h1 class="title">Project</h1>
-
-        <div class="card-wrap" style="display: inline-block;" onclick="handleClick2()" id = "DonJon">
-            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
-                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;);"></div>
-                <div class="card-info"><h1>DonJon</h1> <p><br>RPG게임 </p></div>
-            </div>
+        <div id="app" class="container">
+            <card data-image="image/project/Minty/MintyLogo.png" data-id="Minty">
+                <h1 slot="header">DonJon</h1>
+                <p slot="content">
+                    <br>
+                    RPG게임
+                </p>
+            </card>
+            <card data-image="image/project/Minty/MintyLogo.png" data-id="Minty">
+                <h1 slot="header">Team-communicate</h1>
+                <p slot="content">
+                    <br>
+                    협업 관리
+                </p>
+            </card>
+            <card data-image="image/project/Minty/MintyLogo.png" data-id="Minty">
+                <h1 slot="header">Refrigerator</h1>
+                <p slot="content">
+                    <br>
+                    냉장고 재료 관리
+                </p>
+            </card>
         </div>
-        <div class="card-wrap" style="display: inline-block;"onclick="handleClick2()" id = "Team-communicate-Tool">
-            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
-                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;); "></div>
-                <div class="card-info"><h1 style="   font-size: 31px; position: relative;   top: -12px; ">Team-communicate</h1> <p><br>협업 관리</p></div>
-            </div>
-        </div>
-        <div class="card-wrap" style="display: inline-block;" onclick="handleClick2()" id = "DonJon">
-            <div class="card" style="transform: rotateY(0deg) rotateX(0deg);">
-                <div class="card-bg" style="background-image: url(&quot;image/project/Minty/MintyLogo.png&quot;); "></div>
-                <div class="card-info"><h1>Refrigerator</h1> <p><br>냉장고 재료 관리</p></div>
-            </div>
-        </div>
+        
     </div>
 
     <a id="scrollToTopBtn" onclick="scrollToTop()" title="Scroll to Top">

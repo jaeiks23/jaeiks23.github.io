@@ -81,7 +81,7 @@
             this._Loader();
           } else {
             var self=this;
-            // TODO: jQuery ì¢…ì†ì„± ì œê±°
+            // TODO: jQuery ì¢…ì†?„± ? œê±?
             jQuery(this._img).bind("load", function(){ self._Loader(); });
           }
         }
@@ -326,3 +326,4 @@
       }
 
 })(jQuery);
+

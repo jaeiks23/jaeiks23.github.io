@@ -154,3 +154,180 @@
     $('.box-roulette').roulette();
   
   });
+  function chageClick(){
+    let imgs =  document.querySelector('.Projects_img__OAyqd').src;
+    console.log(imgs);
+    let texts = "http://192.168.0.85:5500/";
+    
+     if(imgs == texts+"image/project/Minty/Donjon1.png"){
+      document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon4.png";
+         document.querySelector('.Projects_page__zHIqO').innerHTML = "2/4"
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon4.png"){
+      document.querySelector('.Projects_page__zHIqO').innerHTML = "3/4"
+      document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon3.png";
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon3.png"){
+      document.querySelector('.Projects_page__zHIqO').innerHTML = "4/4"
+      document.querySelector('.Projects_img__OAyqd').src= "image/project/Minty/Donjon2.png";
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon2.png"){
+      document.querySelector('.Projects_page__zHIqO').innerHTML = "1/4"
+      document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon1.png";
+     }
+ }
+ function chageClick2(){
+     let imgs =  document.querySelector('.Projects_img__OAyqd').src;
+     let texts = "http://192.168.0.85:5500/";
+    
+      if(imgs == texts+"image/project/Minty/Donjon1.png"){
+        document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon2.png";
+          document.querySelector('.Projects_page__zHIqO').innerHTML = "4/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon2.png"){
+        document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon3.png";
+          document.querySelector('.Projects_page__zHIqO').innerHTML = "3/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon3.png"){
+        document.querySelector('.Projects_img__OAyqd').src= "image/project/Minty/Donjon4.png";
+          document.querySelector('.Projects_page__zHIqO').innerHTML = "2/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon4.png"){
+        document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon1.png";
+          document.querySelector('.Projects_page__zHIqO').innerHTML = "1/4"
+      }
+  }
+  function chageClick3(){
+    let imgs =  document.querySelector('.Projects_img__OAyqd2').src;
+    console.log(imgs);
+    let texts = "http://192.168.0.85:5500/";
+    
+     if(imgs == texts+"image/project/Minty/Donjon1.png"){
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon4.png";
+         document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/4"
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon4.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/4"
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon3.png";
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon3.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/4"
+      document.querySelector('.Projects_img__OAyqd2').src= "image/project/Minty/Donjon2.png";
+     }
+     else if(imgs == texts+"image/project/Minty/Donjon2.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/4"
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon1.png";
+     }
+ }
+ function chageClick4(){
+     let imgs =  document.querySelector('.Projects_img__OAyqd2').src;
+     let texts = "http://192.168.0.85:5500/";
+    
+      if(imgs == texts+"image/project/Minty/Donjon1.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon2.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon2.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon3.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon3.png"){
+        document.querySelector('.Projects_img__OAyqd2').src= "image/project/Minty/Donjon4.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/4"
+      }
+      else if(imgs == texts+"image/project/Minty/Donjon4.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon1.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/4"
+      }
+  }
+  function chageClick5(){
+    let imgs =  document.querySelector('.Projects_img__OAyqd3').src;
+    console.log(imgs);
+    let texts = "http://192.168.0.85:5500/";
+    
+     if(imgs == texts+"image/project/Ref/Re1.png"){
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re2.png";
+         document.querySelector('.Projects_page__zHIqO3').innerHTML = "2/10"
+     }
+     else if(imgs == texts+"image/project/Ref/Re2.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "3/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re3.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re3.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "4/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re4.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re4.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "5/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re5.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re5.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "6/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re6.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re6.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "7/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re7.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re7.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "8/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re8.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re8.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "9/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re9.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re9.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "10/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re10.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re10.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "1/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re1.png";
+     }
+ }
+ function chageClick6(){
+     let imgs =  document.querySelector('.Projects_img__OAyqd3').src;
+     let texts = "http://192.168.0.85:5500/";
+    
+     if(imgs == texts+"image/project/Ref/Re1.png"){
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re10.png";
+         document.querySelector('.Projects_page__zHIqO3').innerHTML = "10/10"
+     }
+     else if(imgs == texts+"image/project/Ref/Re2.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "1/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re1.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re3.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "2/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re2.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re4.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "3/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re3.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re5.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "4/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re4.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re6.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "5/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re5.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re7.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "6/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re6.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re8.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "7/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re7.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re9.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "8/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re8.png";
+     }
+     else if(imgs == texts+"image/project/Ref/Re10.png"){
+      document.querySelector('.Projects_page__zHIqO3').innerHTML = "9/10"
+      document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re9.png";
+     }
+  }

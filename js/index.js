@@ -54,7 +54,7 @@ Vue.config.devtools = true;
                 },
                 cardBgImage() {
                     return {
-                        backgroundImage: `url(${this.dataImage})`
+                       
                     };
                 }
             },
@@ -87,3 +87,5 @@ Vue.config.devtools = true;
         function handleClick2(){
             window.location.href = `project.html#${this.dataId}`;
         }  
+
+       
