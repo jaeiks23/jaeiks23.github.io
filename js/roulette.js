@@ -202,42 +202,50 @@
     console.log(imgs);
     let texts = "http://192.168.0.85:5500/";
     
-     if(imgs == texts+"image/project/Minty/Donjon1.png"){
-      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon4.png";
-         document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/4"
+     if(imgs == texts+"image/project/team/t1.png"){
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t2.png";
+         document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/5"
      }
-     else if(imgs == texts+"image/project/Minty/Donjon4.png"){
-      document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/4"
-      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon3.png";
+     else if(imgs == texts+"image/project/team/t2.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/5"
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t3.png";
      }
-     else if(imgs == texts+"image/project/Minty/Donjon3.png"){
-      document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/4"
-      document.querySelector('.Projects_img__OAyqd2').src= "image/project/Minty/Donjon2.png";
+     else if(imgs == texts+"image/project/team/t3.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/5"
+      document.querySelector('.Projects_img__OAyqd2').src= "image/project/team/t4.png";
      }
-     else if(imgs == texts+"image/project/Minty/Donjon2.png"){
-      document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/4"
-      document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon1.png";
+     else if(imgs == texts+"image/project/team/t4.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "5/5"
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t5.png";
+     }
+     else if(imgs == texts+"image/project/team/t5.png"){
+      document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/5"
+      document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t1.png";
      }
  }
  function chageClick4(){
      let imgs =  document.querySelector('.Projects_img__OAyqd2').src;
      let texts = "http://192.168.0.85:5500/";
     
-      if(imgs == texts+"image/project/Minty/Donjon1.png"){
-        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon2.png";
-          document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/4"
+      if(imgs == texts+"image/project/team/t1.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t5.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/5"
       }
-      else if(imgs == texts+"image/project/Minty/Donjon2.png"){
-        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon3.png";
-          document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/4"
+      else if(imgs == texts+"image/project/team/t4.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t3.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "3/5"
       }
-      else if(imgs == texts+"image/project/Minty/Donjon3.png"){
-        document.querySelector('.Projects_img__OAyqd2').src= "image/project/Minty/Donjon4.png";
-          document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/4"
+      else if(imgs == texts+"image/project/team/t3.png"){
+        document.querySelector('.Projects_img__OAyqd2').src= "image/project/team/t2.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "2/5"
       }
-      else if(imgs == texts+"image/project/Minty/Donjon4.png"){
-        document.querySelector('.Projects_img__OAyqd2').src = "image/project/Minty/Donjon1.png";
-          document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/4"
+      else if(imgs == texts+"image/project/team/t2.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t1.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "1/5"
+      }
+      else if(imgs == texts+"image/project/team/t5.png"){
+        document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t4.png";
+          document.querySelector('.Projects_page__zHIqO2').innerHTML = "4/5"
       }
   }
   function chageClick5(){
