@@ -157,7 +157,7 @@
   function chageClick(){
     let imgs =  document.querySelector('.Projects_img__OAyqd').src;
     console.log(imgs);
-    let texts = "http://192.168.0.85:5500/";
+    let texts = "https://jaeiks23.github.io/";
     
      if(imgs == texts+"image/project/Minty/Donjon1.png"){
       document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon4.png";
@@ -178,7 +178,7 @@
  }
  function chageClick2(){
      let imgs =  document.querySelector('.Projects_img__OAyqd').src;
-     let texts = "http://192.168.0.85:5500/";
+     let texts = "https://jaeiks23.github.io/";
     
       if(imgs == texts+"image/project/Minty/Donjon1.png"){
         document.querySelector('.Projects_img__OAyqd').src = "image/project/Minty/Donjon2.png";
@@ -200,7 +200,7 @@
   function chageClick3(){
     let imgs =  document.querySelector('.Projects_img__OAyqd2').src;
     console.log(imgs);
-    let texts = "http://192.168.0.85:5500/";
+    let texts = "https://jaeiks23.github.io/";
     
      if(imgs == texts+"image/project/team/t1.png"){
       document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t2.png";
@@ -225,7 +225,7 @@
  }
  function chageClick4(){
      let imgs =  document.querySelector('.Projects_img__OAyqd2').src;
-     let texts = "http://192.168.0.85:5500/";
+     let texts = "https://jaeiks23.github.io/";
     
       if(imgs == texts+"image/project/team/t1.png"){
         document.querySelector('.Projects_img__OAyqd2').src = "image/project/team/t5.png";
@@ -251,7 +251,7 @@
   function chageClick5(){
     let imgs =  document.querySelector('.Projects_img__OAyqd3').src;
     console.log(imgs);
-    let texts = "http://192.168.0.85:5500/";
+    let texts = "https://jaeiks23.github.io/";
     
      if(imgs == texts+"image/project/Ref/Re1.png"){
       document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re2.png";
@@ -296,7 +296,7 @@
  }
  function chageClick6(){
      let imgs =  document.querySelector('.Projects_img__OAyqd3').src;
-     let texts = "http://192.168.0.85:5500/";
+     let texts = "https://jaeiks23.github.io/";
     
      if(imgs == texts+"image/project/Ref/Re1.png"){
       document.querySelector('.Projects_img__OAyqd3').src = "image/project/Ref/Re10.png";
